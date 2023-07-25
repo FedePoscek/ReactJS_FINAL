@@ -55,10 +55,9 @@ input:hover:focus::placeholder {
     align-items: center;
     border-bottom: 1px dotted #aba7a4;
     width: 30em;
-    max-width: 90vw;
+    max-width: 85vw;
     background-color: #e3e3db;
-    padding: 0 2em;
-   
+    padding: 0 1em;
 }
 .imgDetalleCheckout {
     width: 2em;
@@ -70,7 +69,7 @@ input:hover:focus::placeholder {
     padding: 0.5em 0;
     border-bottom: 1px solid #aba7a4;
     width: 30em;
-    max-width: 90vw;
+    max-width: 80vw;
 }
 .form-container {
     padding: 1em 0 0 0;

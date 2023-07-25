@@ -28,8 +28,7 @@ const Cart = () => {
           <h2 style={{margin: "1em 0 1em 0"}}> Carrito de compras </h2>
 
       <div className="CartOrganizacionItems">
-      {carrito.map(producto => <CartItem key={producto.id} {...producto} />)}
-
+        {carrito.map(producto => <CartItem key={producto.item.id} {...producto} />)}
       </div>
       <h2> Total: $ {total} </h2>
       <h4> Cantidad Total: {cantidadTotal} </h4>
