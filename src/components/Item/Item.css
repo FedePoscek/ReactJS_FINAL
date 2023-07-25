@@ -33,3 +33,15 @@
     background-color: #babab1;
     color: white;
   }
+
+
+  @media screen and (max-width: 800px) {
+    .cardProducto {
+        width: 40vw;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+    .imgProducto {
+        width: 30vw;
+    }
+  }
