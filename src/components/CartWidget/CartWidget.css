@@ -1,0 +1,33 @@
+.cart {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0 5em 0 0;
+}
+.imgNumCarrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.imgCarrito {
+    width: 2em;
+    margin-right: 0.25em;
+}
+
+.numCarritoContenedor {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    /* background-color: #1a1a1a; */
+    background-color: #4e7efb;
+    color: #fff;
+  }
+  
+.numCarritoContenedor > .numCarrito {
+    margin: 0.25em 0;
+    text-align: center;
+    vertical-align: center;
+    font-weight: bold;
+  }
+  

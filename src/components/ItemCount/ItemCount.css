@@ -1,0 +1,53 @@
+.ContenedorCounter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.NumeroCounter {
+    font-weight: 900;
+    font-size: 1rem;
+    padding: 0 1rem;
+}
+
+.ItemCountButton {
+    width: 2em;
+    height: 2em;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.25em;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+    transition: border-color 0.25s;
+    color: rgb(159, 159, 155);
+
+  }
+.ItemCountButton:hover {
+    border-color: rgb(188, 188, 181);
+    background-color: rgb(97, 97, 97);
+    color: white;
+  }
+
+  .agregarCarritoButton {
+    background-color: #4e96fb;
+    margin-bottom: 1em;
+    color: #f9f9f9;
+  }
+
+  .agregarCarritoButton:hover {
+    background-color: rgb(97, 97, 97);
+    margin-bottom: 1em;
+  }
+
+  .ItemCountStockDisponible {
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    color: black;
+    padding-bottom: 0.5em;
+  }
