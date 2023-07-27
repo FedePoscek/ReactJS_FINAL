@@ -26,6 +26,7 @@ const ItemDetailContainer = () => {
       .catch(error => console.log(error))
   }, [idItem])
 
+// si usamos el asyncmock con esto traemos un solo producto
 //   useEffect( () => {
 //     getUnProducto(idItem)
 //         .then(res => setProducto(res))

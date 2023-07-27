@@ -74,8 +74,8 @@ export const CarritoProvider = ({children}) => {
         <CarritoContext.Provider value={{carrito, agregarProducto, eliminarProducto, vaciarCarrito, total, cantidadTotal}}>
             {children}
         </CarritoContext.Provider>
-        // en el value enviamos el valor actual del carrito y los metodos a los componentes de mi App que lo necesiten.
-        // usamos Children para represnetar a todos aquellos componentes que puedan necesitar el carrito y sus metodos
+        // en el value enviamos el valor actual del carrito y los métodos a los componentes de la App que lo necesiten.
+        // usamos Children para representar a todos aquellos componentes que puedan necesitar el carrito y sus metodos
         )
 }
 

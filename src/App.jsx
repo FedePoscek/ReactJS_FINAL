@@ -24,10 +24,9 @@ REACT ROUTER: librería de enrutamiento para React, navegar entre componentes si
 const App = () => {
 
   // acá va la parte lógica
-
   // en el return va la interfaz del usuario
+  
   return (
-    // el div general es por que cada componente debe retornar UN elemento, pero los dejamos vacios "FRAGMENTS"
     <>
     <BrowserRouter>
     <CarritoProvider>

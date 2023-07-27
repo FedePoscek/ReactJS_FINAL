@@ -19,7 +19,6 @@
     border-radius: 50%;
     width: 2em;
     height: 2em;
-    /* background-color: #1a1a1a; */
     background-color: #4e7efb;
     color: #fff;
   }
@@ -30,4 +29,3 @@
     vertical-align: center;
     font-weight: bold;
   }
-  

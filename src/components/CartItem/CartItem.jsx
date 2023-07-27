@@ -18,7 +18,6 @@ const CartItem = ({item, cantidad}) => {
           <span className="trash"></span>
         </button>
 
-        {/* <button className="botonEliminar" onClick={() => eliminarProducto(item.id)}> Eliminar </button> */}
     </div>
   )
 }

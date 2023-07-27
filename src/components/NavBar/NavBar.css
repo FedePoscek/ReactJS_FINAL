@@ -95,10 +95,6 @@ li {
     .hamburger {
       display: block;
     }
-    /* .navigation-menu l {
-        display: flex;
-        flex-direction: column;
-      } */
     .navigation-menu ul {
       flex-direction: column;
       position: absolute;
@@ -107,9 +103,7 @@ li {
       width: 100%;
       height: calc(100vh - 60px);
       background-color: rgba(0, 0, 0, 0.9);
-      /* border-top: 1px solid black; */
       display: none;
-      /* transition: all 0.9s ease-in; */
     }
     .navigation-menu li {
       text-align: center;
@@ -117,14 +111,6 @@ li {
       padding: 1.5rem 0;
 
     }
-    /* .navigation-menu li a {
-      color: black;
-      width: 100%;
-      padding: 1.5rem 0;
-    } */
-    /* .navigation-menu li:hover {
-      background-color: none;
-    } */
     .navigation-menu.expanded ul {
       display: flex;
       flex-direction: column;

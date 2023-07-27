@@ -149,7 +149,7 @@ const Checkout = () => {
                 
                 </div>
                 
-                {/* Si hay error, que me lo muestre */}
+                {/* Si hay error, lo muestra en rojo */}
                 {
                     error && <p style={{color: "red"}}> {error} </p>
                 }
@@ -157,11 +157,6 @@ const Checkout = () => {
                 <button type="submit"> Finalizar Compra </button>
             </form>       
 
-            { 
-                ordenId && (
-                    <strong> Gracias por tu compra, tu número de orden es: {ordenId} </strong>
-                )
-            }
         </div>
   )
 }

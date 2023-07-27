@@ -27,15 +27,10 @@ const CartWidget = () => {
                         <div className='numCarrito'>
                             
                             { 
-                            // si es mayor a 0 se actualiza, si no, deja el 0
-                            (cantidadTotal > 0) ? (cantidadTotal) : (cantidadTotal)
-                            
+                            // si la cantidad de items en el carro es igual a 0 pone "-", si no, se actualiza
+                            (cantidadTotal == 0) ? ("-") : (cantidadTotal)
                             }
                             
-                            {/* {
-                            // si es menor a 0 se desmonta
-                            cantidadTotal > 0 && <strong> {cantidadTotal} </strong>
-                            } */}
                         </div>
                     </div>
 

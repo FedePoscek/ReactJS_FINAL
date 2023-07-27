@@ -1,7 +1,6 @@
 import "./ItemDetail.css";
 import { NavLink, Link } from "react-router-dom";
 import ItemCount from '../ItemCount/ItemCount';
-
 import { CarritoContext } from "../../context/CarritoContext";
 import { useContext, useState } from "react";
 

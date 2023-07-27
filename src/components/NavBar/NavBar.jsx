@@ -2,7 +2,6 @@ import "./NavBar.css";
 import CartWidget from "../CartWidget/CartWidget";
 import { Link, NavLink } from "react-router-dom";
 import imgLogo from '../../assets/Logo_ElectroStore.svg';
-
 import { useState } from "react";
 
 
@@ -13,6 +12,7 @@ const NavBar = () => {
 
     const [isNavExpanded, setIsNavExpanded] = useState(false);
 
+    // función manejadora para abrir y cerrar el navegador responsive
     const ManejadorClickNavResponsive = () => {
         if (!isNavExpanded) {
             setIsNavExpanded(true);
@@ -28,7 +28,6 @@ const NavBar = () => {
                     <img className="imgLogoTienda" src={imgLogo} alt="ElectroStore" />
                 </Link>
 
-                {/* <button className="hamburger" onClick={() => { setIsNavExpanded(!isNavExpanded); }}> */}
                 <button className="hamburger" onClick={ManejadorClickNavResponsive}>
 
                     {/* SVG "Hamburguer" M6 18L18 6M6 6l12 12 */}
@@ -79,41 +78,3 @@ const NavBar = () => {
 }
 
 export default NavBar
-
-
-
-
-
-// const NavBar = () => {
-//     return (
-//         <header>
-//             <nav>
-//                 <Link to="/">
-//                     <img className="imgLogoTienda" src={imgLogo} alt="ElectroStore" />
-//                 </Link>
-//                 <ul>
-//                     <li>
-//                         <NavLink to="categoria/1">
-//                             <button>Notebooks</button>
-//                         </NavLink>
-//                     </li>
-//                     <li>
-//                         <NavLink to="categoria/2">
-//                             <button>Celulares</button>
-//                         </NavLink>
-//                     </li>
-//                     <li>
-//                         <NavLink to="categoria/3">
-//                             <button>Tablets</button>
-//                         </NavLink>
-//                     </li>           
-//                 </ul>
-
-//                 <CartWidget />
-//             </nav>
-            
-//         </header>
-//     )
-// }
-
-// export default NavBar
